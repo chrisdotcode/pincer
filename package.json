@@ -2,10 +2,10 @@
   "name": "pincer",
   "version": "1.0.0",
   "description": "Pincer is a recursive static file server that serves content-types correctly and logs nicely.",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node lib/index.js"
   },
   "repository": {
     "type": "git",
