@@ -23,15 +23,14 @@ process.argv.forEach(function argParser(arg) {
 			'CWDTS defaults to the current directory.\n' +
 			'HOSTTS defaults to "localhost".\n' +
 			'PORTTS defaults to "8000".\n' +
-			'\n' +
 			'N.B.: The WEBROOT argument takes precedence over the CWDTS environment variable, if both are specified.\n' +
 			'\n' +
-			'-----------------------\n' +
-			'\n' +
 			'Show pincer\'s help message:\n' +
+			'\n' +
 			'	$ pincer [ --help | -h | --h ]\n' +
 			'\n' +
 			'Show the current version of pincer:\n' +
+			'\n' +
 			'	$ pincer [ --version | -v | --v ]\n'
 		);
 		return process.exit(0);

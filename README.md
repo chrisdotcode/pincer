@@ -14,28 +14,32 @@ Usage Examples
 --------------
 Serve the current directory @ `localhost:8000`:
 
-        $ pincer
+	$ pincer
 
 Serve the directory `WEBROOT` @ `localhost:8000`:
 
-        $ pincer [WEBROOT]
+	$ pincer [WEBROOT]
 
 Serve the directory `/var/www` @ `0.0.0.0:8080`:
 
-        $ CWDTS=/var/www HOSTTS=0.0.0.0 PORTTS=8080 pincer
+	$ CWDTS=/var/www HOSTTS=0.0.0.0 PORTTS=8080 pincer
 
 `CWDTS` defaults to the current directory.
+
 `HOSTTS` defaults to `localhost`.
+
 `PORTTS` defaults to `8000`.
 
 N.B.: The `WEBROOT` argument takes precedence over the `CWDTS` environment
 variable, if both are specified.
 
 Show pincer's help message:
-        $ pincer [ --help | -h | --h ]
+
+	$ pincer [ --help | -h | --h ]
 
 Show the current version of pincer:
-        $ pincer [ --version | -v | --v ]
+
+	$ pincer [ --version | -v | --v ]
 
 Install
 -------
