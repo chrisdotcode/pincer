@@ -1,0 +1,32 @@
+{
+  "name": "pincer",
+  "version": "1.0.0",
+  "description": "Pincer is a recursive static file server that serves content-types correctly and logs nicely.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisdotcode/pincer.git"
+  },
+  "keywords": [
+    "static",
+    "file",
+    "server",
+    "content",
+    "type",
+    "log",
+    "dev"
+  ],
+  "author": "Chris Blake",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/chrisdotcode/pincer/issues"
+  },
+  "homepage": "https://github.com/chrisdotcode/pincer#readme",
+  "dependencies": {
+    "mime": "^1.3.4"
+  }
+}
