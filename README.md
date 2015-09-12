@@ -22,15 +22,15 @@ Serve the directory `WEBROOT` @ `localhost:8000`:
 
 Serve the directory `/var/www` @ `0.0.0.0:8080`:
 
-	$ CWDTS=/var/www HOSTTS=0.0.0.0 PORTTS=8080 pincer
+	$ CWDP=/var/www HOSTP=0.0.0.0 PORTP=8080 pincer
 
-`CWDTS` defaults to the current directory.
+`CWDP` defaults to the current directory.
 
-`HOSTTS` defaults to `localhost`.
+`HOSTP` defaults to `localhost`.
 
-`PORTTS` defaults to `8000`.
+`PORTP` defaults to `8000`.
 
-N.B.: The `WEBROOT` argument takes precedence over the `CWDTS` environment
+N.B.: The `WEBROOT` argument takes precedence over the `CWDP` environment
 variable, if both are specified.
 
 Show pincer's help message:

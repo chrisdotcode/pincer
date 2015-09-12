@@ -1,6 +1,6 @@
 {
   "name": "pincer",
-  "version": "4.1.1",
+  "version": "5.1.1",
   "description": "Pincer is a recursive static file server that serves content-types correctly and logs nicely.",
   "bin": {
     "pincer": "./lib/index.js"
